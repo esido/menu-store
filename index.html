@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-teal-500">
+    <div class="container">
+      <h1 class="title">Menu</h1>
+      <form id="menu-form">
+        <div>
+          <div class="menu-content">
+            <input
+              required
+              id="name-input"
+              type="text"
+              placeholder="Taom nomi"
+            />
+            <input
+              required
+              id="price-input"
+              type="text"
+              placeholder="Taom narxi"
+            />
+            <input
+              required
+              id="img-input"
+              type="text"
+              placeholder="Taom rasmi linki"
+            />
+          </div>
+          <div class="menu-content">
+            <input
+              required
+              id="chef-input"
+              type="text"
+              placeholder="Taom oshpazi"
+            />
+            <input
+              required
+              id="res-input"
+              type="text"
+              class="res-btn"
+              placeholder="Taom tayyorlangan restoran"
+            />
+          </div>
+        </div>
+        <div>
+          <button id="add-btn">Add</button>
+        </div>
+      </form>
+      <ul id="menu-list"></ul>
+    </div>
+
+    <script src="./js/scipt.js"></script>
+  </body>
+</html>
